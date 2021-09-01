@@ -1,1 +1,16 @@
+body{
+    background-image: url("img/stars.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    color:beige;
+    }
+
+.introduction {
+    
+    color:rgba(32, 32, 218, 0.842);
+    
+}
 
