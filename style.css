@@ -1,3 +1,18 @@
+@keyframes defile { 
+    0% {
+        top: 0;
+          
+    transform: rotateX(30deg) translateZ(0);
+    }
+
+    100% {
+        top: -6000px;
+          
+  
+        transform: rotateX(35deg) translateZ(-2500px);
+    }
+}
+
 body{
     background-image: url("img/stars.jpg");
     background-position: center center;
@@ -6,31 +21,33 @@ body{
     background-repeat: no-repeat;
 
     color:beige;
-    }
+}
+
+section {
+    perspective: 350px;
+}
 
 article {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items:center;
     gap: 20px;
    
-
-    height: 800px;
-    border: solid 3px white;
-
-
-}    
-
-.introduction {
+    transform: rotateX(70deg);
     
-    color:rgba(32, 32, 218, 0.842);
-    
+    position: relative;
+    animation: defile 50s linear;
+}
+
+h1 {
+   color:rgba(32, 32, 218, 0.842);
+   font-size: 5em;
 }
  
+
 p {
     text-align: center;
-    
+    font-size: 4em;
 }
 
 
