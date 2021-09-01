@@ -6,7 +6,7 @@
     }
 
     100% {
-        top: -6000px;
+        top: -5000px;
           
   
         transform: rotateX(35deg) translateZ(-2500px);
@@ -20,8 +20,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 
-    color:beige;
+    color:whitesmoke;
 }
+
 
 section {
     perspective: 350px;
@@ -45,9 +46,11 @@ h1 {
 }
  
 
-p {
+.style {
     text-align: center;
     font-size: 4em;
+    color: #FFD500;
+    font-weight: 1000 ;
 }
 
 
