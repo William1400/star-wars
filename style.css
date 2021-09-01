@@ -8,9 +8,29 @@ body{
     color:beige;
     }
 
+article {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:center;
+    gap: 20px;
+   
+
+    height: 800px;
+    border: solid 3px white;
+
+
+}    
+
 .introduction {
     
     color:rgba(32, 32, 218, 0.842);
     
 }
+ 
+p {
+    text-align: center;
+    
+}
+
 
